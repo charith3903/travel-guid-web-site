@@ -37,7 +37,7 @@ figure, header, nav, section, article, aside, footer, figcaption {
   margin: 0;
   padding: 0;
   border: 0;
-  outline: 0;
+  outline: 4px;
 }
 
 .clearfix:after {
@@ -2328,3 +2328,5 @@ body {
     padding: 0px;
   }
 }
+
+
