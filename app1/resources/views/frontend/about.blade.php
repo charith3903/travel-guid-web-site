@@ -50,13 +50,13 @@ https://templatemo.com/tm-580-woox-travel
             <div class="col-12">
                 <nav class="main-nav">
                     <!-- ***** Logo Start ***** -->
-                    <a href="index.html" class="logo">
-                        <img src="assets/images/logo.png" alt="">
+                    <a href="" class="logo">
+                        <img src="assets/images/logo.png.webp" alt="">
                     </a>
                     <!-- ***** Logo End ***** -->
                     <!-- ***** Menu Start ***** -->
                     <ul class="nav">
-                        <li><a href="index.html">Home</a></li>
+                        <li><a href="/">Home</a></li>
                         <li><a href="about" class="active">About</a></li>
                         <li><a href="deals.html">Deals</a></li>
                         <li><a href="reservation.html">Reservation</a></li>
@@ -82,8 +82,8 @@ https://templatemo.com/tm-580-woox-travel
             <div class="blur-bg"></div>
             <h4>EXPLORE OUR COUNTRY</h4>
             <div class="line-dec"></div>
-            <h2>Welcome To Caribbean</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt uttersi labore et dolore magna aliqua is ipsum suspendisse ultrices gravida</p>
+            <h2 style="font-family: Arial, sans-serif; font-size: 3rem; color: #007bff; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); margin: 0; padding: 20px; background-color: #f0f0f0; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">Welcome To Sri Lanka</h2>
+            <p>Welcome to the mesmerizing island of Sri Lanka, where natural wonders and cultural treasures await at every turn. Discover a land blessed with pristine beaches, misty mountains, lush forests, and a rich tapestry of history and tradition.</p>
             <div class="main-button">
               <a href="reservation.html">Discover More</a>
             </div>
@@ -100,7 +100,7 @@ https://templatemo.com/tm-580-woox-travel
         <div class="slider-content">
           <div class="row">
             <div class="col-lg-12">
-              <h2>Caribbean’s <em>Cities &amp; Towns</em></h2>
+              <h2>Sri Lanka’s <em>Cities &amp; Towns</em></h2>
             </div>
             <div class="col-lg-12">
               <div class="owl-cites-town owl-carousel">
@@ -443,16 +443,7 @@ https://templatemo.com/tm-580-woox-travel
     </div>
   </div>
 
-  <footer>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <p>Copyright © 2036 <a href="#">WoOx Travel</a> Company. All rights reserved. 
-          <br>Design: <a href="https://templatemo.com" target="_blank" title="free CSS templates">TemplateMo</a></p>
-        </div>
-      </div>
-    </div>
-  </footer>
+ 
 
 
   <!-- Scripts -->

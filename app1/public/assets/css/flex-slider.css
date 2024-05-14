@@ -232,7 +232,7 @@ html[xmlns] .flexslider .slides {
   background: rgba(0, 0, 0, 0.7);
 }
 .flex-control-paging li a.flex-active {
-  background: #000;
+  background: #d8d3d3;
   background: rgba(0, 0, 0, 0.9);
   cursor: default;
 }
