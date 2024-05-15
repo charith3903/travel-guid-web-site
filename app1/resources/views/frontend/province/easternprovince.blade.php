@@ -51,9 +51,9 @@
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
                             <li><a href="/" class="active">Home</a></li>
-                            <li><a href="about">About</a></li>
-                            <li><a href="details">Details</a></li>
-                            <li><a href="reservation.html">Hotels</a></li>
+                            <li><a href="/about">About</a></li>
+                            <li><a href="/details">Details</a></li>
+                            <li><a href="/hotels">Hotels</a></li>
                         </ul>
                         <a class='menu-trigger'>
                             <span>Menu</span>

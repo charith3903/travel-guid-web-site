@@ -51,17 +51,17 @@ https://templatemo.com/tm-580-woox-travel
         <div class="col-12">
           <nav class="main-nav">
             <!-- ***** Logo Start ***** -->
-            <a href="index.html" class="logo">
+            <a href="/" class="logo">
               <img src="assets/images/logo.png.webp" alt="" style="width: 150px; height: auto; border: 1px solid red;"> <!-- Added border for visualization -->
             </a>
             <!-- ***** Logo End ***** -->
             <!-- ***** Menu Start ***** -->
             <ul class="nav">
-              <li><a href="" class="active">Home</a></li>
+              <li><a href="/" class="active">Home</a></li>
               <li><a href="about">About</a></li>
               <li><a href="details">Details</a></li>
 
-              <li><a href="reservation.html">Hotels</a></li>
+              <li><a href="/hotels">Hotels</a></li>
             </ul>
             <a class='menu-trigger'>
               <span>Menu</span>
@@ -72,8 +72,6 @@ https://templatemo.com/tm-580-woox-travel
       </div>
     </div>
   </header>
-
-
   <!-- ***** Header Area End ***** -->
 
   <!-- ***** Main Banner Area Start ***** -->
@@ -89,7 +87,7 @@ https://templatemo.com/tm-580-woox-travel
             <div class="main-caption">
               <h2>Take a Glimpse Into The Beautiful City Of:</h2>
               <h1>ELLA</h1>
-              <div class="border-button"><a href="about.html">Go There</a></div>
+              <div class="border-button"><a href="/about">Go There</a></div>
             </div>
             <div class="container">
               <div class="row">
@@ -110,7 +108,7 @@ https://templatemo.com/tm-580-woox-travel
                       </div>
                       <div class="col-lg-3 col-sm-6 col-6">
                         <div class="main-button">
-                          <a href="about.html">Explore More</a>
+                          <a href="/details">Explore More</a>
                         </div>
                       </div>
                     </div>
@@ -125,7 +123,7 @@ https://templatemo.com/tm-580-woox-travel
             <div class="main-caption">
               <h2>Take a Glimpse Into The Beautiful City Of:</h2>
               <h1>SIGIRIYA</h1>
-              <div class="border-button"><a href="about.html">Go There</a></div>
+              <div class="border-button"><a href="/about">Go There</a></div>
             </div>
             <div class="container">
               <div class="row">
@@ -146,7 +144,7 @@ https://templatemo.com/tm-580-woox-travel
                       </div>
                       <div class="col-lg-3 col-sm-6 col-6">
                         <div class="main-button">
-                          <a href="about.html">Explore More</a>
+                          <a href="/details">Explore More</a>
                         </div>
                       </div>
                     </div>
@@ -161,7 +159,7 @@ https://templatemo.com/tm-580-woox-travel
             <div class="main-caption">
               <h2>Take a Glimpse Into The Beautiful City Of:</h2>
               <h1>COLOMBO</h1>
-              <div class="border-button"><a href="about.html">Go There</a></div>
+              <div class="border-button"><a href="/about">Go There</a></div>
             </div>
             <div class="container">
               <div class="row">
@@ -182,7 +180,7 @@ https://templatemo.com/tm-580-woox-travel
                       </div>
                       <div class="col-lg-3 col-sm-6 col-6">
                         <div class="main-button">
-                          <a href="about.html">Explore More</a>
+                          <a href="/details">Explore More</a>
                         </div>
                       </div>
                     </div>
@@ -197,7 +195,7 @@ https://templatemo.com/tm-580-woox-travel
             <div class="main-caption">
               <h2>Take a Glimpse Into The Beautiful City Of:</h2>
               <h1>GALLE</h1>
-              <div class="border-button"><a href="about.html">Go There</a></div>
+              <div class="border-button"><a href="/about">Go There</a></div>
             </div>
             <div class="container">
               <div class="row">
@@ -218,7 +216,7 @@ https://templatemo.com/tm-580-woox-travel
                       </div>
                       <div class="col-lg-3 col-sm-6 col-6">
                         <div class="main-button">
-                          <a href="about.html">Explore More</a>
+                          <a href="/details">Explore More</a>
                         </div>
                       </div>
                     </div>
@@ -359,7 +357,7 @@ https://templatemo.com/tm-580-woox-travel
           <div class="row">
             <div class="col-lg-12">
               <div id="map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4047450.7038260517!2d75.67730397853843!3d7.833293008346809!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2593cf65a1e9d%3A0xe13da4b400e2d38c!2sSri%20Lanka!5e0!3m2!1sen!2slk!4v1715672774899!5m2!1sen!2slk" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4047450.7038260517!2d75.67730397853843!3d7.833293008346809!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2593cf65a1e9d%3A0xe13da4b400e2d38c!2sSri%20Lanka!5e0!3m2!1sen!2slk!4v1715672774899!5m2!1sen!2slk" width="100%" height="550px" frameborder="0" style="border:0; border-radius: 23px; " allowfullscreen=""></iframe>
               </div>
             </div>
           </div>

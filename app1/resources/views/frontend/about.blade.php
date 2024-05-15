@@ -46,17 +46,17 @@
         <div class="col-12">
           <nav class="main-nav">
             <!-- ***** Logo Start ***** -->
-            <a href="index.html" class="logo">
+            <a href="/" class="logo">
               <img src="assets/images/logo.png.webp" alt="" style="width: 150px; height: auto; border: 1px solid red;"> <!-- Added border for visualization -->
             </a>
             <!-- ***** Logo End ***** -->
             <!-- ***** Menu Start ***** -->
             <ul class="nav">
               <li><a href="/" class="active">Home</a></li>
-              <li><a href="about">About</a></li>
-              <li><a href="details">Details</a></li>
+              <li><a href="/about">About</a></li>
+              <li><a href="/details">Details</a></li>
 
-              <li><a href="reservation.html">Hotels</a></li>
+              <li><a href="/hotels">Hotels</a></li>
             </ul>
             <a class='menu-trigger'>
               <span>Menu</span>
@@ -183,7 +183,7 @@
         <div class="col-lg-6">
           <div class="section-heading">
             <h2 style="color:#22b3c1">Discover More About Our Country</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+            <p>Sri Lanka, often referred to as the "Pearl of the Indian Ocean," is a tropical paradise that attracts visitors from around the world with its rich tapestry of landscapes, cultures, and experiences. From pristine beaches to lush green hills, Sri Lanka offers a diverse range of natural beauty that captivates every traveler.</p>
           </div>
           <div class="row">
             <div class="col-lg-6">
@@ -213,7 +213,7 @@
               </div>
             </div>
           </div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+          <p>As of recent data, Sri Lanka has been seeing a steady growth in tourism arrivals over the years. However, specific figures can vary depending on various factors such as economic conditions, political stability, global events, and tourism campaigns.</p>
           <div class="main-button">
             <a href="details">More Details</a>
           </div>
@@ -249,8 +249,6 @@
       </div>
     </div>
   </footer>
-
-
 
 
   <!-- Scripts -->
