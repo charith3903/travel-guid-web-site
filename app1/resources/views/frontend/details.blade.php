@@ -42,7 +42,7 @@
 
         .section-heading h2 {
             color: #EFDDB6;
-            /* Change this to the desired color */
+            
         }
     </style>
 </head>
