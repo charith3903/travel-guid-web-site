@@ -67,7 +67,7 @@
             </div>
         </div>
     </div>
-</header>
+  </header>
   <!-- ***** Header Area End ***** -->
 
   <!-- ***** Main Banner Area Start ***** -->
