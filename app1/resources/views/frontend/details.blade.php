@@ -123,46 +123,50 @@
         <div class="container">
             <div class="row">
                 <!-- Card 1: Central Province -->
+                <div class="row mt-5"></div>
                 <div class="col-lg-4 col-md-6">
                     <div class="card">
                         <img src="assets/images/province1.jpg" class="card-img-top" alt="Central Province">
                         <div class="card-body">
                             <h5 class="card-title">Central Province</h5>
                             <p class="card-text">Known for its stunning mountains and tea plantations.</p>
-                            <a href="central-province.html" class="btn btn-primary">Learn More</a>
+                            <a href="/centralprovince" class="btn btn-primary">Learn More</a>
                         </div>
                     </div>
                 </div>
                 <!-- Card 2: Southern Province -->
+                
                 <div class="col-lg-4 col-md-6">
                     <div class="card">
                         <img src="assets/images/province2.jpg" class="card-img-top" alt="Southern Province">
                         <div class="card-body">
                             <h5 class="card-title">Southern Province</h5>
                             <p class="card-text">Famous for its beaches, wildlife, and colonial architecture.</p>
-                            <a href="southern-province.html" class="btn btn-primary">Learn More</a>
+                            <a href="/southernprovince" class="btn btn-primary">Learn More</a>
                         </div>
                     </div>
                 </div>
                 <!-- Card 3: Western Province -->
+                
                 <div class="col-lg-4 col-md-6">
                     <div class="card">
                         <img src="assets/images/province3.jpg" class="card-img-top" alt="Western Province">
                         <div class="card-body">
                             <h5 class="card-title">Western Province</h5>
                             <p class="card-text">Home to the capital city, Colombo, with its urban attractions.</p>
-                            <a href="western-province.html" class="btn btn-primary">Learn More</a>
+                            <a href="westernprovince" class="btn btn-primary">Learn More</a>
                         </div>
                     </div>
                 </div>
                 <!-- Card 4: Northern Province -->
+                <div class="row mt-5"></div>
                 <div class="col-lg-4 col-md-6">
                     <div class="card">
                         <img src="assets/images/province4.jpg" class="card-img-top" alt="Northern Province">
                         <div class="card-body">
                             <h5 class="card-title">Northern Province</h5>
                             <p class="card-text">Known for its rich Tamil culture and historical significance.</p>
-                            <a href="northern-province.html" class="btn btn-primary">Learn More</a>
+                            <a href="northernprovince" class="btn btn-primary">Learn More</a>
                         </div>
                     </div>
                 </div>
@@ -173,29 +177,31 @@
                         <div class="card-body">
                             <h5 class="card-title">Eastern Province</h5>
                             <p class="card-text">Famous for its beautiful beaches and lagoons.</p>
-                            <a href="eastern-province.html" class="btn btn-primary">Learn More</a>
+                            <a href="easternprovince" class="btn btn-primary">Learn More</a>
                         </div>
                     </div>
                 </div>
                 <!-- Card 6: North Western Province -->
+                
                 <div class="col-lg-4 col-md-6">
                     <div class="card">
                         <img src="assets/images/province6.jpg" class="card-img-top" alt="North Western Province">
                         <div class="card-body">
                             <h5 class="card-title">North Western Province</h5>
                             <p class="card-text">Known for its historical sites and wildlife sanctuaries.</p>
-                            <a href="north-western-province.html" class="btn btn-primary">Learn More</a>
+                            <a href="northwesternprovince" class="btn btn-primary">Learn More</a>
                         </div>
                     </div>
                 </div>
                 <!-- Card 7: North Central Province -->
+                <div class="row mt-5"></div>
                 <div class="col-lg-4 col-md-6">
                     <div class="card">
                         <img src="assets/images/province7.jpg" class="card-img-top" alt="North Central Province">
                         <div class="card-body">
                             <h5 class="card-title">North Central Province</h5>
                             <p class="card-text">Home to ancient cities and historical ruins.</p>
-                            <a href="north-central-province.html" class="btn btn-primary">Learn More</a>
+                            <a href="northcentralprovince" class="btn btn-primary">Learn More</a>
                         </div>
                     </div>
                 </div>
@@ -206,7 +212,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Uva Province</h5>
                             <p class="card-text">Known for its natural beauty and waterfalls.</p>
-                            <a href="uva-province.html" class="btn btn-primary">Learn More</a>
+                            <a href="uvaprovince" class="btn btn-primary">Learn More</a>
                         </div>
                     </div>
                 </div>
@@ -217,7 +223,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Sabaragamuwa Province</h5>
                             <p class="card-text">Famous for gem mining and picturesque landscapes.</p>
-                            <a href="sabaragamuwa-province.html" class="btn btn-primary">Learn More</a>
+                            <a href="sabaragamuwaprovince" class="btn btn-primary">Learn More</a>
                         </div>
                     </div>
                 </div>
@@ -225,7 +231,31 @@
         </div>
     </section>
     <!-- ***** Province Cards Section End ***** -->
-
+    <div class="call-to-action">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8">
+          <h2>Are You Looking To Travel ?</h2>
+          <h4>You Can Book Hotel Using This Site</h4>
+        </div>
+        <div class="col-lg-4">
+          <div class="border-button">
+            <a href="https://www.booking.com/country/lk.en.html?aid=1610687;label=lk-ck3uN92IfBEwdZxHp32E1gS409815327264:pl:ta:p1:p2:ac:ap:neg:fi:tiaud-2007787596709:kwd-3404070877:lp1009920:li:dec:dm:ppccp=UmFuZG9tSVYkc2RlIyh9YfpWGnRw6lOGgfEoJVv7zYo;ws=&gad_source=1&gclid=CjwKCAjwl4yyBhAgEiwADSEjeFlasstgqMga4hnErsrkzsLli72zfL82JJxanBHpG85ZzkBpCIjNkBoCShkQAvD_BwE">Book Yours Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <p>Copyright © 2024 <a href="#">SriLanka Travel</a> Company. All rights reserved. 
+          <br>Design: <a href="www.linkedin.com/in/charith-dissanayaka-966344231" target="_blank" title="Linked in">Charith Lakshan</a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
     <!-- Scripts -->
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
