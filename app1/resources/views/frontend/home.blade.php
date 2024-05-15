@@ -8,7 +8,7 @@
 
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
-  <title>Travel SriLanka Bootstrap 5 Theme</title>
+  <title>Travel SriLanka</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -244,7 +244,7 @@ https://templatemo.com/tm-580-woox-travel
       <div class="row">
         <div class="col-lg-5">
           <h2 style="color: #B4F1E5;">Visit One Of Our Beautiful Places Now</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+          <p>This is aone of amazing travel destination of ove Country</p>
         </div>
       </div>
     </div>

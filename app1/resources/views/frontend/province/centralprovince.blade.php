@@ -19,6 +19,37 @@
     <link rel="stylesheet" href="assets/css/animate.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
 
+    <style>
+        .slideshow-container {
+            max-width: 1000px;
+            position: relative;
+            margin: auto;
+            border: 5px solid #ccc;
+        }
+
+        .mySlides img {
+            width: 100%;
+            height: auto;
+            border: 2px solid #fff;
+            border-radius: 10px;
+        }
+
+        .fade {
+            animation-name: fade;
+            animation-duration: 2s;
+        }
+
+        @keyframes fade {
+            from {
+                opacity: .4
+            }
+
+            to {
+                opacity: 1
+            }
+        }
+    </style>
+
 
 </head>
 
@@ -68,29 +99,69 @@
     <!-- ***** About Us Section Start ***** -->
     <section class="about-us section">
         <div class="container">
+        <h2 style="color: #EFDDB6; text-align: center;">Central Province</h2>
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-heading">
-                        <div class="section-heading">
-                            <h2 style="color: #EFDDB6; text-align: center;">Central Province</h2>
-                            <div style="margin: 0 auto; max-width: 800px; text-align: justify; padding: 20px;">
-                                <p style="font-size: 18px; line-height: 1.6; color: #555;">The Central Province of Sri Lanka is known for its stunning mountains and tea plantations. It offers a serene escape into nature with its picturesque landscapes and cool climate. Whether you're exploring the verdant tea estates or hiking through the rolling hills, the Central Province mesmerizes visitors with its natural beauty and tranquility.</p>
-                                <h4 style="color: #EFDDB6; margin-top: 30px;">Exploring the Tea Plantations</h4>
-                                <p style="font-size: 16px; line-height: 1.5; color: #555;">Nuwara Eliya, often referred to as "Little England," is the heart of the Central Province's tea country. Here, you can visit tea factories to learn about the tea-making process and enjoy scenic walks through the lush plantations. The cool climate and misty atmosphere add to the charm of this hill station, making it a favorite destination for both locals and tourists.</p>
-                                <h4 style="color: #EFDDB6; margin-top: 30px;">Discovering Natural Wonders</h4>
-                                <p style="font-size: 16px; line-height: 1.5; color: #555;">Horton Plains National Park is a must-visit attraction in the Central Province. This UNESCO World Heritage Site is home to diverse ecosystems, including cloud forests and grasslands. The trek to World's End, a sheer cliff with a breathtaking view, is a highlight for adventurous travelers. The park also boasts beautiful waterfalls and endemic wildlife, offering endless opportunities for exploration and discovery.</p>
-                                <h4 style="color: #EFDDB6; margin-top: 30px;">Immersing in Cultural Heritage</h4>
-                                <p style="font-size: 16px; line-height: 1.5; color: #555;">In addition to its natural wonders, the Central Province is rich in cultural heritage. The city of Kandy, with its sacred Temple of the Tooth Relic, is a significant cultural hub. Visitors can witness traditional ceremonies and rituals at the temple and explore the historic streets of Kandy, which are lined with colonial-era buildings and bustling markets.</p>
-                                <h4 style="color: #EFDDB6; margin-top: 30px;">Outdoor Adventures</h4>
-                                <p style="font-size: 16px; line-height: 1.5; color: #555;">For outdoor enthusiasts, the Central Province offers a wide range of activities, including trekking, birdwatching, and mountain biking. Knuckles Mountain Range, a UNESCO World Heritage Site, is a paradise for hikers, with its rugged terrain and diverse flora and fauna. The region's cool climate and lush landscapes provide the perfect backdrop for unforgettable adventures.</p>
-                                <h4 style="color: #EFDDB6; margin-top: 30px;">Travel Destinations in Central Province</h4>
-                                <ul style="list-style-type: disc; font-size: 16px; line-height: 1.5; color: #555;">
-                                    <li>Nuwara Eliya</li>
-                                    <li>Horton Plains National Park</li>
-                                    <li>Kandy</li>
-                                    <li>Knuckles Mountain Range</li>
-                                </ul>
+                        <div class="slideshow-container">
+                            <div class="mySlides fade">
+                                <img src="assets/images/image1.jpg" style="width:100%">
                             </div>
+
+                            <div class="mySlides fade">
+                                <img src="assets/images/image2.jpg" style="width:100%">
+                            </div>
+
+                            <div class="mySlides fade">
+                                <img src="assets/images/image3.jpg" style="width:100%">
+                            </div>
+
+                            <div class="mySlides fade">
+                                <img src="assets/images/image4.jpg" style="width:100%">
+                            </div>
+
+                            <div class="mySlides fade">
+                                <img src="assets/images/image5.jpg" style="width:100%">
+                            </div>
+                        </div>
+                        <!-- Slideshow script -->
+                        <script>
+                            var slideIndex = 0;
+                            showSlides();
+
+                            function showSlides() {
+                                var i;
+                                var slides = document.getElementsByClassName("mySlides");
+                                for (i = 0; i < slides.length; i++) {
+                                    slides[i].style.display = "none";
+                                }
+                                slideIndex++;
+                                if (slideIndex > slides.length) {
+                                    slideIndex = 1
+                                }
+                                slides[slideIndex - 1].style.display = "block";
+                                setTimeout(showSlides, 2000); // Change image every 2 seconds
+                            }
+                        </script>
+                        <!-- Slideshow script end -->
+
+                            <div style="margin: 0 auto; max-width: 800px; text-align: justify; padding: 20px;">
+                            <p style="font-size: 18px; line-height: 1.6; color: #555;">The Central Province of Sri Lanka is known for its stunning mountains and tea plantations. It offers a serene escape into nature with its picturesque landscapes and cool climate. Whether you're exploring the verdant tea estates or hiking through the rolling hills, the Central Province mesmerizes visitors with its natural beauty and tranquility.</p>
+                            <h4 style="color: #EFDDB6; margin-top: 30px;">Exploring the Tea Plantations</h4>
+                            <p style="font-size: 16px; line-height: 1.5; color: #555;">Nuwara Eliya, often referred to as "Little England," is the heart of the Central Province's tea country. Here, you can visit tea factories to learn about the tea-making process and enjoy scenic walks through the lush plantations. The cool climate and misty atmosphere add to the charm of this hill station, making it a favorite destination for both locals and tourists.</p>
+                            <h4 style="color: #EFDDB6; margin-top: 30px;">Discovering Natural Wonders</h4>
+                            <p style="font-size: 16px; line-height: 1.5; color: #555;">Horton Plains National Park is a must-visit attraction in the Central Province. This UNESCO World Heritage Site is home to diverse ecosystems, including cloud forests and grasslands. The trek to World's End, a sheer cliff with a breathtaking view, is a highlight for adventurous travelers. The park also boasts beautiful waterfalls and endemic wildlife, offering endless opportunities for exploration and discovery.</p>
+                            <h4 style="color: #EFDDB6; margin-top: 30px;">Immersing in Cultural Heritage</h4>
+                            <p style="font-size: 16px; line-height: 1.5; color: #555;">In addition to its natural wonders, the Central Province is rich in cultural heritage. The city of Kandy, with its sacred Temple of the Tooth Relic, is a significant cultural hub. Visitors can witness traditional ceremonies and rituals at the temple and explore the historic streets of Kandy, which are lined with colonial-era buildings and bustling markets.</p>
+                            <h4 style="color: #EFDDB6; margin-top: 30px;">Outdoor Adventures</h4>
+                            <p style="font-size: 16px; line-height: 1.5; color: #555;">For outdoor enthusiasts, the Central Province offers a wide range of activities, including trekking, birdwatching, and mountain biking. Knuckles Mountain Range, a UNESCO World Heritage Site, is a paradise for hikers, with its rugged terrain and diverse flora and fauna. The region's cool climate and lush landscapes provide the perfect backdrop for unforgettable adventures.</p>
+                            <h4 style="color: #EFDDB6; margin-top: 30px;">Travel Destinations in Central Province</h4>
+                            <ul style="list-style-type: disc; font-size: 16px; line-height: 1.5; color: #555;">
+                                <li>Nuwara Eliya</li>
+                                <li>Horton Plains National Park</li>
+                                <li>Kandy</li>
+                                <li>Knuckles Mountain Range</li>
+                            </ul>
                         </div>
                     </div>
                 </div>

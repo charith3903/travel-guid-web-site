@@ -19,6 +19,38 @@
     <link rel="stylesheet" href="assets/css/animate.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
 
+    <style>
+        .slideshow-container {
+            max-width: 1000px;
+            position: relative;
+            margin: auto;
+            border: 5px solid #ccc;
+        }
+
+        .mySlides img {
+            width: 100%;
+            height: auto;
+            border: 2px solid #fff;
+            border-radius: 10px;
+        }
+
+        .fade {
+            animation-name: fade;
+            animation-duration: 2s;
+        }
+
+        @keyframes fade {
+            from {
+                opacity: .4
+            }
+
+            to {
+                opacity: 1
+            }
+        }
+    </style>
+
+
 
 </head>
 
@@ -68,10 +100,50 @@
     <!-- ***** About Us Section Start ***** -->
     <section class="about-us section">
         <div class="container">
+            <h2 style="color: #EFDDB6; text-align: center;">Uva Province</h2>
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-heading">
-                        <h2 style="color: #EFDDB6; text-align: center;">Uva Province</h2>
+                        <div class="slideshow-container">
+                            <div class="mySlides fade">
+                                <img src="assets/images/image1.jpg" style="width:100%">
+                            </div>
+
+                            <div class="mySlides fade">
+                                <img src="assets/images/image2.jpg" style="width:100%">
+                            </div>
+
+                            <div class="mySlides fade">
+                                <img src="assets/images/image3.jpg" style="width:100%">
+                            </div>
+
+                            <div class="mySlides fade">
+                                <img src="assets/images/image4.jpg" style="width:100%">
+                            </div>
+
+                            <div class="mySlides fade">
+                                <img src="assets/images/image5.jpg" style="width:100%">
+                            </div>
+                        </div>
+                        <!-- Slideshow script -->
+                        <script>
+                            var slideIndex = 0;
+                            showSlides();
+
+                            function showSlides() {
+                                var i;
+                                var slides = document.getElementsByClassName("mySlides");
+                                for (i = 0; i < slides.length; i++) {
+                                    slides[i].style.display = "none";
+                                }
+                                slideIndex++;
+                                if (slideIndex > slides.length) {
+                                    slideIndex = 1
+                                }
+                                slides[slideIndex - 1].style.display = "block";
+                                setTimeout(showSlides, 2000); // Change image every 2 seconds
+                            }
+                        </script>
                         <div style="margin: 0 auto; max-width: 800px; text-align: justify; padding: 20px;">
                             <p style="font-size: 18px; line-height: 1.6; color: #555;">The Uva Province, nestled in the central highlands of Sri Lanka, is renowned for its breathtaking natural beauty, cascading waterfalls, and picturesque landscapes. This region offers visitors a tranquil escape amidst lush greenery and serene surroundings, making it an ideal destination for nature lovers and adventure seekers.</p>
                             <h4 style="color: #EFDDB6; margin-top: 30px;">Natural Beauty</h4>
